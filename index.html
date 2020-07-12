@@ -40,6 +40,7 @@
     var score = 0;
     var highScore = 0;
 
+
     window.onload = function () {
       loadHighScore();
       spawnObstacles();
@@ -115,6 +116,7 @@
         }, 10);
       }
     };
+
 
     function getChangeY(steps) {
       var change = (-(steps - 13) * (steps - 13) + 169) / 75;

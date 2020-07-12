@@ -22,3 +22,9 @@ body {
     color: gray;
 
 }
+
+#btn p {
+    color: gray;
+    font-size: 100px;
+    font-weight: 100;
+}
